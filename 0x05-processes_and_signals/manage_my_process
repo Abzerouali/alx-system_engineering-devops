@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script continuously appends the message "I am alive!" to the file /tmp/my_process.
+# It waits for two seconds between each message.
+
+while true
+do
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
+done
